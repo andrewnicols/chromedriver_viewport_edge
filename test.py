@@ -15,8 +15,9 @@ driver = webdriver.Remote(
 )
 
 driver.get("http://host.docker.internal:8880/index.html")
-elem = driver.find_element(By.LINK_TEXT, "Course participation")
+elem = driver.find_element(By.LINK_TEXT, "Click me")
+driver.save_screenshot('before.png')
 elem.click()
 driver.save_screenshot('screenshot.png')
-assert "Course administration" not in driver.page_source
+assert "Success" in driver.page_source
 driver.close()
