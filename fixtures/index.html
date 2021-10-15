@@ -1,113 +1,59 @@
-<html dir="ltr" lang="en" xml:lang="en" class="yui3-js-enabled"><head>
-    <title>Course administration</title>
-    <link rel="shortcut icon" href="http://host.docker.internal/im/theme/image.php/boost/theme/1634272595/favicon">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="keywords" content="moodle, Course administration">
-    <link rel="stylesheet" type="text/css" href="all.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body id="page-course-admin" class="">
-    <div id="page-wrapper" class="d-print-block">
-      <div>
-        <div id="page" data-region="mainpage" data-usertour="scroller" class="drawers  ">
-          <div id="topofscroll" class="main-inner">
-            <div class="drawer-toggles d-flex">
-            </div>
-            <header id="page-header" class="row">
-            <div class="col-12 pt-3">
-              <div class="card border-0">
-                <div class="card-body p-2 navigation-card">
-                  <div class="d-flex flex-wrap">
-                    <div id="page-navbar" class="p-1">
-                      <nav aria-label="Navigation bar">
-                      <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
-                        <a href="http://host.docker.internal/im/course/index.php">Courses</a>
-                        </li>
-
-                        <li class="breadcrumb-item">C1</li>
-                      </ol>
-                      </nav>
-                    </div>
-                    <div class="ml-auto d-flex">
-
-                    </div>
-                    <div id="course-header">
-
-                    </div>
-                  </div>
-                  <div class="d-sm-flex align-items-center">
-                    <div class="mr-auto">
-                      <div class="page-context-header"><div class="page-header-headings"><h1 class="h2">Course 1</h1></div></div>
-                    </div>
-
-                    <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </header>
-            <div id="page-content" class="pb-3 d-print-block">
-              <div id="region-main-box">
-                <section id="region-main" aria-label="Content">
-
-                <span class="notifications" id="user-notifications"></span>
-                <div role="main"><span id="maincontent"></span><h2>Course administration</h2><ul class="nav nav-tabs" role="tablist">
-                    <!-- First the top most node and immediate children -->
-                    <li class="nav-item">
-                    <a class="nav-link active" href="#linkcourseadmin" data-toggle="tab" role="tab" aria-selected="true">Course administration</a>
+<html>
+    <head>
+        <title>Course administration</title>
+        <link rel="stylesheet" type="text/css" href="all.css">
+    </head>
+    <body>
+        <header class="pt-3 row p-2" id="page-header">
+        <div class="">
+            <div class="p-2">
+                <ol class="breadcrumb p-1">
+                    <li class="breadcrumb-item">
+                    <a href="#">Courses</a>
                     </li>
-                    <!-- Now the first level children with sub nodes -->
-                    <li class="nav-item">
-                    <a class="nav-link" href="#linkusers" data-toggle="tab" role="tab" aria-selected="false" tabindex="-1">Users</a>
-                    </li>
-                  </ul>
-                  <div class="tab-content mt-3">
-                    <div class="tab-pane active" id="linkcourseadmin" role="tabpanel">
-                      <div class="container-fluid">
-                        <div class="row">
-                          <div class="col-sm-3">
-                          </div>
-                          <div class="col">
-                            <ul class="list-unstyled">
-                              <li><a href="http://host.docker.internal/im/course/edit.php?id=302000">Settings</a></li>
-                              <li><a href="http://host.docker.internal/im/filter/manage.php?contextid=347000">Filters</a></li>
-                              <li><a href="http://host.docker.internal/im/grade/edit/tree/index.php?id=302000">Gradebook setup</a></li>
-                              <li><a href="http://host.docker.internal/im/backup/backup.php?id=302000">Backup</a></li>
-                              <li><a href="http://host.docker.internal/im/backup/restorefile.php?contextid=347000">Restore</a></li>
-                              <li><a href="http://host.docker.internal/im/backup/import.php?id=302000">Import</a></li>
-                              <li><a href="http://host.docker.internal/im/backup/copy.php?id=302000">Copy course</a></li>
-                              <li><a href="http://host.docker.internal/im/course/reset.php?id=302000">Reset</a></li>
-                              <li><a href="http://host.docker.internal/im/admin/tool/brickfield/index.php?courseid=302000">Accessibility toolkit</a></li>
-                            </ul>
-                          </div>
-                        </div>
 
-                        <hr>
-                        <div class="row">
-                          <div class="col-sm-3">
-                            <h4><a href="http://host.docker.internal/im/report/view.php?courseid=302000">Reports</a></h4>
-
-                          </div>
-                          <div class="col">
-                            <ul class="list-unstyled">
-                              <li><a href="http://host.docker.internal/im/report/competency/index.php?id=302000">Competency breakdown</a></li>
-                              <li><a href="http://host.docker.internal/im/report/log/index.php?id=302000">Logs</a></li>
-                              <li><a href="http://host.docker.internal/im/report/loglive/index.php?id=302000">Live logs</a></li>
-                              <li><a href="http://host.docker.internal/im/report/outline/index.php?id=302000">Activity report</a></li>
-                              <li><a href="success.html">Click me</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                </div></div>
-                </section>
-              </div>
+                    <li class="breadcrumb-item">C1</li>
+                </ol>
             </div>
-          </div>
+            <div>
+                <div class="page-context-header"><h1>Course 1</h1></div>
+            </div>
         </div>
-      </div>
-    </div>
+        </header>
+        <section id="region-main" class="pb-3">
+        <div>
+            <h2>Course administration</h2>
+            <ul class="nav-tabs">
+                <li>
+                <a class="nav-link active" href="#">Course administration</a>
+                </li>
+            </ul>
+            <div class="tab-content mt-3">
+                <div class="row">
+                    <ul>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Filters</a></li>
+                        <li><a href="#">Gradebook setup</a></li>
+                        <li><a href="#">Backup</a></li>
+                        <li><a href="#">Restore</a></li>
+                        <li><a href="#">Import</a></li>
+                        <li><a href="#">Copy course</a></li>
+                        <li><a href="#">Reset</a></li>
+                        <li><a href="#">Accessibility toolkit</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="row">
+                    <h4>Reports</h4>
+                    <ul>
+                        <li><a href="#">Competency breakdown</a></li>
+                        <li><a href="#">Logs</a></li>
+                        <li><a href="#">Live logs</a></li>
+                        <li><a href="#">Activity report</a></li>
+                        <li><a href="success.html">Click me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </section>
 </body></html>

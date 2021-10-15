@@ -4,6 +4,7 @@ body {
     font-size:.9375rem;
     font-weight:400;
     line-height:1.5;
+    margin-bottom: 100px;
 }
 hr {
     box-sizing:content-box;
@@ -20,11 +21,9 @@ ol,ul,dl {
     margin-top:0;
     margin-bottom:1rem
 }
-h1,.h1 {
-    font-size:2.34375rem
-}
-h2,.h2 {
-    font-size:1.875rem
+h1 {
+    font-size:2.34375rem;
+    font-weight:700
 }
 hr {
     margin-top:1rem;
@@ -34,15 +33,8 @@ hr {
 }
 .row {
     display:flex;
-    flex-wrap:wrap;
     margin-right:-15px;
     margin-left:-15px
-}
-.nav {
-    display:flex;
-    flex-wrap:wrap;
-    margin-bottom:0;
-    list-style:none
 }
 .nav-link {
     display:block;
@@ -62,7 +54,7 @@ hr {
     margin-bottom:0;
     list-style:none;
 }
-.mt-3,.my-3 {
+.mt-3 {
     margin-top:1rem!important
 }
 .p-1 {
@@ -71,40 +63,20 @@ hr {
 .p-2 {
     padding:0.5rem!important
 }
-.p-3 {
-    padding:1rem!important
-}
-.pt-3,.py-3 {
+.pt-3 {
     padding-top:1rem!important
 }
-@media (min-width:576px) {
-    #region-main {
-        border:1px solid rgba(0,0,0,.125);
-        padding:1.25rem
-    }
-
+#region-main {
+    border:1px solid rgba(0,0,0,.125);
+    padding:1.25rem
 }
-.aalink.focus,.aalink:focus,#page-footer a:not([class]).focus,#page-footer a:not([class]):focus,.arrow_link.focus,.arrow_link:focus,a:not([class]).focus,a:not([class]):focus,.activityinstance>a.focus,.activityinstance>a:focus {
+a:not([class]):focus {
     outline:.2rem solid transparent;
 }
 .headermain {
     font-weight:700
 }
-#maincontent {
-    display:block;
-    height:1px;
-    overflow:hidden
-}
-#page-header h1.h2 {
-    font-weight:700
-}
-#page-header .logo {
-    margin:1rem 0
-}
-#page-header .logo img {
-    max-height:75px
-}
 .page-context-header {
     overflow:hidden;
-    padding:.25rem
+    padding:.25rem;
 }
