@@ -11,7 +11,7 @@ hr {
     height:0;
     overflow:visible
 }
-ol,ul,dl {
+ul {
     margin-top:0;
     margin-bottom:1rem
 }
