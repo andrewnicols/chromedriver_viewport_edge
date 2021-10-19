@@ -46,17 +46,14 @@ hr {
 .mt-3 {
     margin-top:1rem!important
 }
-.p-1 {
-    padding:0.25rem!important
-}
-.p-2 {
-    padding:0.5rem!important
-}
 
 header {
     margin-right:-1px;
-    padding:0.5rem;
+    padding:0.5rem!important;
     padding-top:1rem;
+}
+header > ol {
+    padding:0.25rem!important
 }
 section {
     border:1px solid black;
