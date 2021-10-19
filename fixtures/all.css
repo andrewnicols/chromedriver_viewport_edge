@@ -76,3 +76,7 @@ hr {
     overflow:hidden;
     padding:.25rem;
 }
+
+header {
+    margin-right:-1px;
+}
