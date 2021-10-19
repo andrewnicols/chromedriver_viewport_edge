@@ -33,8 +33,7 @@ hr {
 }
 .row {
     display:flex;
-    margin-right:-15px;
-    margin-left:-15px
+    margin-right:-1px;
 }
 .nav-link {
     display:block;
@@ -69,9 +68,6 @@ hr {
 #region-main {
     border:1px solid rgba(0,0,0,.125);
     padding:1.25rem
-}
-a:not([class]):focus {
-    outline:.2rem solid transparent;
 }
 .headermain {
     font-weight:700
