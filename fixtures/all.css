@@ -62,16 +62,8 @@ hr {
 .p-2 {
     padding:0.5rem!important
 }
-#region-main {
-    border:1px solid rgba(0,0,0,.125);
-    padding:1.25rem
-}
 .headermain {
     font-weight:700
-}
-.page-context-header {
-    overflow:hidden;
-    padding:.25rem;
 }
 
 header {
@@ -79,3 +71,7 @@ header {
     padding:0.5rem;
     padding-top:1rem;
 }
+ section {
+    border:1px solid black;
+    padding:1.25rem
+ }

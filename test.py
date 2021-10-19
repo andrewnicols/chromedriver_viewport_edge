@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 options = webdriver.ChromeOptions()
 options.add_argument("no-sandbox")
 options.add_argument("--disable-gpu")
-options.add_argument("--window-size=1366,707")
+options.add_argument("--window-size=1366,699")
 options.add_argument("--disable-dev-shm-usage")
 options.headless = False
 driver = webdriver.Remote(
