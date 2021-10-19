@@ -36,7 +36,8 @@ hr {
     margin-bottom:-1px;
     border:1px solid transparent;
 }
-.breadcrumb {
+
+header > ul {
     padding:.25rem 0;
     margin-bottom:0;
 }
