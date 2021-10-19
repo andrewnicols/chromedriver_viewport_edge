@@ -52,16 +52,12 @@ hr {
 .p-2 {
     padding:0.5rem!important
 }
-.headermain {
-    font-weight:700
-}
 
 header {
     margin-right:-1px;
     padding:0.5rem;
     padding-top:1rem;
 }
- section {
+section {
     border:1px solid black;
-    padding:1.25rem
- }
+}
