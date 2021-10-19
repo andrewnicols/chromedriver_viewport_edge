@@ -62,9 +62,6 @@ hr {
 .p-2 {
     padding:0.5rem!important
 }
-.pt-3 {
-    padding-top:1rem!important
-}
 #region-main {
     border:1px solid rgba(0,0,0,.125);
     padding:1.25rem
@@ -79,4 +76,6 @@ hr {
 
 header {
     margin-right:-1px;
+    padding:0.5rem;
+    padding-top:1rem;
 }
